@@ -1,0 +1,31 @@
+{
+  "name": "2d-rpg-game",
+  "version": "1.0.0",
+  "description": "A 2D RPG game featuring exploration, storytelling, combat, character progression, and a dynamic world.",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "typescript": "^4.5.0",
+    "express": "^4.17.1",
+    "socket.io": "^4.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.0.0",
+    "nodemon": "^2.0.7"
+  },
+  "keywords": [
+    "2D",
+    "RPG",
+    "game",
+    "exploration",
+    "storytelling",
+    "combat",
+    "multiplayer"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
